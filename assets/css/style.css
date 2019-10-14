@@ -1,0 +1,138 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+/*-----------------------------------------------------------------------------------*/
+/* BASE
+/*-----------------------------------------------------------------------------------*/
+body {
+	overflow-x:hidden;
+	font-family: 'Lato',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-color: #f6f6f6;
+	font-weight: 300;
+	line-height: 1.75;
+	padding-top: 20px;
+}
+
+p {
+	font-size:14px;
+	line-height:1.75
+}
+
+p.large {
+	font-size:16px
+}
+
+a,a:hover,a:focus,a:active,a.active {
+	outline:0;
+	text-decoration: none;
+}
+
+a {
+	color:#5fb796
+}
+
+a:hover,a:focus,a:active,a.active {
+	color:#c2253e
+}
+
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	width: 100%;
+}
+
+section {
+    width: 100%;
+}
+
+.img-profile {
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+}
+
+.input-group {
+    border: 0;
+}
+.input-group-text {
+    background-color:white;
+    border: 0;
+}
+
+#news {
+    margin-top: 20px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  NAV
+/*-----------------------------------------------------------------------------------*/
+#logo-link {
+	margin: 20px;
+	text-align: center;
+}
+
+.navbar-header {
+    display: grid;
+	padding: 10px 20px;
+}
+
+.fa {
+	margin-right: 10px;
+	top: 10px;
+	color: #17a2b8;
+}
+
+.card {
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	width: 100%;
+}
+
+.card-img {
+	display: inline;
+}
+
+.card-body {
+	padding: 0;
+}
+
+.card-author, .card-content, .card-stats {
+	display: block;
+}
+
+.card-stats > .fa {
+	display: inline;
+	margin-left: 20px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  SEARCH
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  RESPONSIVE
+/*-----------------------------------------------------------------------------------*/
+@media(min-width:1200px) {
+
+}
+
+
+@media (max-width: 991px) {
+
+
+
+}
+
+
+@media(min-width:768px) {
+
+}
+
+@media(max-width:768px) {
+	#search-wrapper {
+		display: none;
+	}
+
+	.navbar-header span > p {
+		display: none;
+	}
+}
